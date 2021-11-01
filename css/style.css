@@ -1,0 +1,113 @@
+@mixin section-padding {
+  padding: 20vh 0;
+  @media (min-width: 768px) { 
+    padding: 20vh 0;
+  }
+}
+a:link { 
+text-decoration:none;
+}
+a:hover {
+ text-decoration:none;
+}
+h2:hover{
+  color:#a7f1eb;
+}
+h5{
+  text-align: center;
+}
+body {
+  width: 100%;
+  height: 2530px;
+  overflow-x: hidden;
+  padding-top: 3rem;
+}
+p {
+  text-align:justify;
+  font-size: 14px;
+}
+p.passos {
+  
+  text-align: center;
+  font-size: 16px;
+}
+li{
+  text-align:justify;
+  text-align: left;
+}
+.navbar-custom{
+  border-bottom: 3px solid #ffff4d;
+}
+
+.hero {
+  widht: 100%;
+  height: 680px;
+  background: #a7f1eb;
+  padding: 15vh 0;
+  border-bottom: 3px solid #ffff4d;
+}
+
+.fold {
+  color: #ffff4d;
+  font-weight: 400;
+  margin: 5% 0;
+  text-align: center;
+}
+
+.sobre { 
+  width: 100%;
+  height: 800px;
+  padding-top: 2rem;
+  background:white;
+  border-bottom: 3px solid #ffff4d;
+  @include section-padding
+}
+
+.option1{
+  width:25%;
+}
+
+.steps{
+  align-items:center;
+  width:50%;
+}
+
+.option2{
+  width:25%;
+}
+
+.servicos { 
+  width: 100%;
+  height: 600px;
+  border-bottom: 3px solid #ffff4d;
+  background-color: #a7f1eb;
+  @include section-padding
+}
+
+.login { 
+  width: 100%;
+  height: 600px;
+  padding-top: 2rem;
+  background:white;
+  @include section-padding
+}
+.medio {
+  width: 100%;
+}
+.grande {
+  width: 100%;
+  text-align:justify;
+}
+.quiz{
+  
+}
+
+.footer { 
+  width: 100%;
+  height: 100px;
+  color:#eeeeee;
+  position: absolute;
+  background-color: #094340;
+  border-top: 3px solid #ffff4d;
+  padding: 10vh 0;
+}
